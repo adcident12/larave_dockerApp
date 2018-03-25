@@ -1,5 +1,5 @@
-<!-- @extends('layout.master') -->
-<!-- @section('content') -->
+@extends('layout_login.master')
+@section('content')
 <div class="container">
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login</div>
@@ -28,12 +28,4 @@
       </div>
     </div>
   </div>
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  {{Html::script('vendor/jquery/jquery.min.js')}}
-  {{Html::script('vendor/bootstrap/js/bootstrap.bundle.min.js')}}
-  {{Html::script('vendor/jquery-easing/jquery.easing.min.js')}}
-<!-- @endsection -->
+@endsection
